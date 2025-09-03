@@ -123,7 +123,6 @@ Instead of using OpenAI's API, implemented GPU-accelerated open-source models:
 1. **`predictions_rocky07.csv`** - Main assignment output with all required predictions
 2. **`analysis_summary_rocky07.json`** - Summary statistics and insights
 3. **`medical_analysis.py`** - Complete, well-commented analysis script
-4. **`medical_analysis_clean.py`** - Clean version of analysis script
 5. **`analyze_data.py`** - Data analysis utilities
 6. **`ASSIGNMENT_SUMMARY_rocky07.md`** - Assignment summary document
 7. **`requirements.txt`** - Python dependencies

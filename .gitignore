@@ -1,0 +1,60 @@
+# GenAI Analyst Assignment - Project Specific Git Ignore
+# Student: rocky07
+
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# NLP Models & Cache
+# Hugging Face model cache
+.cache/
+models/
+
+# Downloaded model files
+*.bin
+*.safetensors
+pytorch_model.bin
+config.json
+tokenizer.json
+vocab.json
+merges.txt
+special_tokens_map.json
+tokenizer_config.json
+
+# Data Files (Keep Assignment Deliverables)
+# Exclude large intermediate data files
+articles_analysis_results.csv
+twitter_analysis_results.csv
+analysis_insights.json
+
+# Keep assignment deliverables
+!predictions_rocky07.csv
+!analysis_summary_rocky07.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs & Temporary Files
+*.log
+temp/
+tmp/
+
+# Assignment Specific - Keep Important Files
+# KEEP these files (explicit whitelist):
+!genai_analyst_assignment_rocky07.py
+!PROCESS_SUMMARY.md
+!ASSIGNMENT_SUMMARY_rocky07.md
+!requirements.txt
+!analyze_data.py
+!task.ipynb
+!README.md

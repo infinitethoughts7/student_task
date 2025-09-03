@@ -1,0 +1,20 @@
+{
+  "total_records": 100,
+  "media_records": "50",
+  "twitter_records": "50",
+  "sentiment_distribution": {
+    "neutral": 65,
+    "positive": 30,
+    "negative": 5
+  },
+  "topic_distribution": {
+    "Others": 49,
+    "General Opinion": 22,
+    "Safety-Side Effects": 12,
+    "Overall Survival (OS)": 7,
+    "Efficacy-General": 5,
+    "Progression Free Survival (PFS)": 5
+  },
+  "avg_confidence": 0.3726601456105709,
+  "processing_timestamp": "2025-09-03T20:52:18.891741"
+}
